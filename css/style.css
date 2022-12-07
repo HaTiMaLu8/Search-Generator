@@ -2,12 +2,11 @@ header {
     box-shadow: 1px 5px 10px 4px rgb(128, 128, 128);
     background-color: white;
     border-radius: 5px;
-    width: 80%;
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-left: 2%;
-    padding-right: 2%;
-    position: fixed;
+    width: 90% ;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 h1{
     font-size: 120%;
@@ -41,7 +40,7 @@ button{
     box-shadow: 1px 5px 10px 4px rgb(128, 128, 128);
     border: none;
     padding: 10px;
-    margin: 25px
+    margin: 20px
 }
 button:hover{
     display: flex;
@@ -53,44 +52,15 @@ button:hover{
     transition: all 0.5s;
     border: none;
     padding: 10px;
-    margin: 25px
+    margin: 20px
 }
 div.exp{
     margin: 30px;
 }
-@media screen and (max-width){
-
-    header {
-        box-shadow: 1px 5px 10px 4px rgb(128, 128, 128);
-        background-color: white;
-        border-radius: 5px;
-        width: 90%;
-        margin-left: 3%;
-        margin-right: 3%;
-        padding-left: 2%;
-        padding-right: 2%;
-        position: fixed;
-    }
-    h1{
-        font-size: 120%;
-    }
-    a{
-        color: black;
-        text-decoration: none;
-    }
-    div.txt{
-        padding-top: 90px;
-    }
-    input{
-        box-shadow: 1px 5px 10px 4px rgb(128, 128, 128);
-        width: 88%;
-        height: 50px;
-        border-radius: 20px;
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-top: 50px;
-        padding-left: 2%;
-        padding-right: 2%;
-    }
+div.engine{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
