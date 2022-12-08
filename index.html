@@ -8,45 +8,35 @@
 
 <body>
 <header>
-    <a href=""><h1>検索ジェネレーター</h1></a>
+    <a href=""><h1>検索リンクジェネレーター</h1></a>
 </header>
 
 <div class="txt">
     <div class="exp">
-        <p>この検索ジェネレーターでは、入力したキーワードを複数の検索エンジンで調べるツールです。</p>
+        <p>入力したキーワードで様々な検索エンジンの<br>リンクを生成するツールです。</p>
     </div> 
     <form name="box1">
             <input type="search" id="search" name="search">
     </form>
     <div class="engine">
-        <div class="google">
-            <button onclick="google()"><img src="img/google.png" width="70px" /></button>
+        <div class="e-box">
+            <button onclick="google()"><img src="img/google.svg" width="70px" /><br><p>Google</p></button>
         </div> 
-        <div class="yahoo">
-           <button onclick="yahoo()"><img src="img/yahoo.png" width="70px" /></button>
+        <div class="e-box">
+           <button onclick="yahoo()"><img src="img/yahoo.svg" width="70px" /><br><p>Yahoo!</p></button>
         </div> 
-        <div class="bing">
-           <button onclick="bing()"><img src="img/bing.png" width="70px" /></button>
+        <div class="e-box">
+           <button onclick="bing()"><img src="img/bing.svg" width="70px" /><br><p>bing</p></button>
         </div> 
-        <div class="duckduckgo">
-           <button onclick="duckduckgo()"><img src="img/duck.png" width="70px" /></button>
+        <div class="e-box">
+           <button onclick="duckduckgo()"><img src="img/duckduckgo.svg" width="70px" /><br><p>duckduckgo</p></button>
         </div> 
-        <div class="baidu">
-           <button onclick="baidu()"><img src="img/baidu.png" width="70px" /></button>
+        <div class="e-box">
+           <button onclick="baidu()"><img src="img/baidu.svg" width="70px" /><br><p>baidu</p></button>
         </div> 
-        <div class="yandex">
-           <button onclick="yandex()"><img src="img/yandex.png" width="70px" /></button>
+        <div class="e-box">
+           <button onclick="yandex()"><img src="img/yandex.svg" width="70px" /><br><p>Yandex</p></button>
         </div> 
-        <div class="youtube">
-           <button onclick="youtube()"><img src="img/youtube.png" width="70px" /></button>
-        </div>
-        <div class="amazon">
-           <button onclick="amazon()"><img src="img/amazon.png" width="70px" /></button>
-        </div>
-        /--- SNS ---/
-        <div class="Twitter">
-           <button onclick="twitter()"><img src="img/twitte.png" width="70px" /></button>
-        </div>
     </div> 
 </div>
 <script src="js/gen.js"></script>
